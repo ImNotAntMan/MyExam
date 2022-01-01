@@ -17,4 +17,32 @@ public class Member {
 	public void setmId(int mId ) {
 		this.mId = mId;
 	}
+	public void setmName(String mName) {
+		this.mName = mName;
+	}
+	public void setmCellPhone(String mCellPhone) {
+		this.mCellPhone = mCellPhone;
+	}
+	public void setmEmail(String mEmail) {
+		this.mEmail = mEmail;
+	}
+	public void setmAddress(String mAddress) {
+		this.mAddress =  mAddress;
+	}
+	
+	public int getmId() {
+		return this.mId;
+	}
+	public String getmName() {
+		return this.mName;
+	}
+	public String getmCellPhone() {
+		return this.mCellPhone;
+	}
+	public String getmEmail() {
+		return this.mEmail;
+	}
+	public String getmAddress() {
+		return this.mAddress;
+	}
 }
