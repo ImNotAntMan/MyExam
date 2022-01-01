@@ -15,7 +15,7 @@ public class TestManageMember {
 		member.modifyMemberAddress(1, "강원도입니다.");
 		member.modifyMemberName(3, "강감찬");
 		member.removeMember(5);
-		member.showAllMember();
+		System.out.println("_______________________________________________________________");		member.showAllMember();
 	}
 
 }
