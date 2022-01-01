@@ -6,7 +6,9 @@ public class Person {
 	private String personEmail;
 	// 생성자
 	public Person(int Id, String personName, String personEmail) {
-
+		this.personId = Id;
+		this.personName = personName;
+		this.personEmail = personEmail;
 	}
 	// 오버로딩 된 생성자
 	// 메서드
@@ -29,6 +31,9 @@ public class Person {
 	}
 	public void setPersonId(int personId) {
 		this.personId = personId;
+	}
+	public void setPersonEmail(String personEmail) {
+		this.personEmail = personEmail;
 	}
 	// 오버로딩 된 메서드
 }

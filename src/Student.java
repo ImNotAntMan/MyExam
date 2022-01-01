@@ -5,6 +5,6 @@ public class Student extends Person {
 	}
 	
 	public void doWork() {
-		System.out.println(getPersonName() + "이 공부한다.");
+		System.out.println(getPersonName() + "가 공부한다.");
 	}
 }
