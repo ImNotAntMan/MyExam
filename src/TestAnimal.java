@@ -2,7 +2,6 @@ import java.util.*;
 public class TestAnimal {
 	public static void main(String[] args) {
 		Animal animal;
-		String name = getAnimalName();
 		int animalChoice = getUserChoice();
 		if(animalChoice == 1) {
 			animal = new Cat("Tommy");

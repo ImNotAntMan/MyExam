@@ -20,8 +20,7 @@ class DBConnection {
 			System.out.println("로드오류:\n" + e);
 		} catch(SQLException e) {
 			System.out.println("아뒤비번 체크:\n" + e);
-		}
-	}
+ 	}
 	
 	public int insert(String sql) {
 		int id = -1;
